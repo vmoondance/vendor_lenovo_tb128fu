@@ -49,28 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb128fu/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/lenovo/tb128fu/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
     vendor/lenovo/tb128fu/proprietary/vendor/etc/awinic_cali.wav:$(TARGET_COPY_OUT_VENDOR)/etc/awinic_cali.wav \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/10_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/10_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/10_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/10_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/1_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/1_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/1_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/1_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/2_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/2_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/2_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/2_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/3_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/3_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/3_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/3_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/4_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/4_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/4_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/4_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/5_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/5_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/5_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/5_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/6_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/6_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/6_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/6_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/7_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/7_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/7_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/7_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/8_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/8_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/8_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/8_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/9_0.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/9_0.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/9_90.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/9_90.jpg \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/AW_Portrait_Mask_License.data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/AW_Portrait_Mask_License.data \
-    vendor/lenovo/tb128fu/proprietary/vendor/etc/camera/portrait/PS_D0_n_v3_finger_F16.m.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/PS_D0_n_v3_finger_F16.m.bin \
     vendor/lenovo/tb128fu/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/lenovo/tb128fu/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/lenovo/tb128fu/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
@@ -229,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb128fu/proprietary/vendor/firmware/hx_criteria.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/hx_criteria.csv \
     vendor/lenovo/tb128fu/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/lenovo/tb128fu/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
-		vendor/lenovo/tb128fu/proprietary/vendor/firmware/novatek_ts_apcf_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_apcf_fw.bin \
     vendor/lenovo/tb128fu/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
     vendor/lenovo/tb128fu/proprietary/vendor/lib/hw/audio.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.bengal.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib/hw/sound_trigger.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.bengal.so \
@@ -318,8 +295,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
-    vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.lenovobeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.lenovobeauty.so \
-    vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.lenovoportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.lenovoportrait.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.remosaic.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
@@ -370,11 +345,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libI420colorconvert.so \
-    vendor/lenovo/tb128fu/proprietary/vendor/lib64/libNvBeautyEffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNvBeautyEffect.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
-    vendor/lenovo/tb128fu/proprietary/vendor/lib64/libaw_portrait_mask.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaw_portrait_mask.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
-    vendor/lenovo/tb128fu/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
     vendor/lenovo/tb128fu/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
