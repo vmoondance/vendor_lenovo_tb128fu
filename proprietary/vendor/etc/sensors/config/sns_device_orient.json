@@ -10,13 +10,13 @@
     ".config":{
       "owner": "sns_device_orient",
       "param0": {
-         "type": "int", "ver": "0", "data": "4"
+         "type": "int", "ver": "1", "data": "2"
       },
       "param1": {
-         "type": "flt", "ver": "0", "data": "20.0"
+         "type": "flt", "ver": "1", "data": "50.0"
       },
       "param2": {
-         "type": "flt", "ver": "0", "data": "0.25"
+         "type": "flt", "ver": "1", "data": "0.10"
       },
       "param3": {
          "type": "flt", "ver": "0", "data": "70.0"
